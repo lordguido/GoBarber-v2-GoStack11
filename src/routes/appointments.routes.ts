@@ -1,0 +1,13 @@
+import { Router } from 'express';
+
+const appointmentsRouter = Router();
+
+appointmentsRouter.post('/', (request, response) => {
+  return response.json({ message: 'Rota POST' });
+});
+
+appointmentsRouter.get('/', (request, response) => {
+  return response.json({ message: 'Rota GET' });
+});
+
+export default appointmentsRouter;
