@@ -5,6 +5,9 @@
   "username": "tzkwpxkh",
   "password": "NaYcEBdD0HJ5U7cSgzGsFs-w8lS-bXQJ",
   "database": "tzkwpxkh",
+  "entities": [
+    "./src/models/*.ts"
+  ],
   "migrations": [
     "./src/database/migrations/*.ts"
   ],
