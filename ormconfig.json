@@ -1,7 +1,7 @@
 {
   "type": "postgres",
   "host": "rajje.db.elephantsql.com",
-  "port": "5432",
+  "port": 5432,
   "username": "tzkwpxkh",
   "password": "NaYcEBdD0HJ5U7cSgzGsFs-w8lS-bXQJ",
   "database": "tzkwpxkh",
